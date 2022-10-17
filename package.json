@@ -5,7 +5,8 @@
   "scripts": {
     "test": "jest",
     "start": "parcel index.js",
-    "build": "parcel build index.js"
+    "build": "parcel build index.js",
+    "lint": "npx standard --fix" // add this line
   },
   "repository": {
     "type": "git",
